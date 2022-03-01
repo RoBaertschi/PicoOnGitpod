@@ -1,0 +1,6 @@
+tasks:
+  - init: cd build && cmake ..
+
+vscode:
+  extensions:
+    - ms-vscode.cmake-tools
