@@ -1,5 +1,5 @@
 tasks:
-  - init: sudo apt install gcc-arm-none-eabi && export PICO_SDK_PATH="/workspace/PicoOnGitpod/pico/pico-sdk" mkdir build && cd build && cmake ..
+  - init: sudo apt install gcc-arm-none-eabi -y && export PICO_SDK_PATH="/workspace/PicoOnGitpod/pico/pico-sdk" mkdir build && cd build && cmake ..
 
 vscode:
   extensions:
