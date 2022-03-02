@@ -1,5 +1,5 @@
 tasks:
-  - init: cd build && cmake ..
+  - init: mkdir build && cd build && cmake ..
 
 vscode:
   extensions:
