@@ -1,8 +1,8 @@
 # Set minimum required version of CMake
 cmake_minimum_required(VERSION 3.12)
-
+set(PICO_SDK_PATH /workspace/PicoOnGitpod/pico-sdk)
 # Include build functions from Pico SDK
-include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+include(${PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
 # Set name of project (as PROJECT_NAME) and C/C   standards
 project(blink C CXX ASM)
